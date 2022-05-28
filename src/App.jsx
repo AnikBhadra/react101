@@ -1,11 +1,11 @@
-import ClassComponent from '../Components/ClassComponent'
+import State from '../Components/State'
 import './App.css'
 
 function App() {
 
   return (
     <div >
-      <ClassComponent name="ReactJs" />
+      <State />
     </div>
   )
 }
