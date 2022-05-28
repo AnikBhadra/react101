@@ -1,11 +1,11 @@
-import Grid_auto_fill from '../Components/Grid_auto_fill'
+import ClassComponent from '../Components/ClassComponent'
 import './App.css'
 
 function App() {
 
   return (
     <div >
-      <Grid_auto_fill />
+      <ClassComponent name="ReactJs" />
     </div>
   )
 }
