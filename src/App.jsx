@@ -1,11 +1,11 @@
-import State from '../Components/State'
+import Counter from '../Components/Counter'
 import './App.css'
 
 function App() {
 
   return (
     <div >
-      <State />
+      <Counter />
     </div>
   )
 }
