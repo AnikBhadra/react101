@@ -1,11 +1,11 @@
-import Greetings from '../Components/Greetings'
+import Footballers from '../Components/Footballers'
 import './App.css'
 
 function App() {
 
   return (
     <div >
-      <Greetings />
+      <Footballers />
     </div>
   )
 }
