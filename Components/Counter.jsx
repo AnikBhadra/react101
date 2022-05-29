@@ -18,11 +18,15 @@ function Counter() {
 
     return (
         <div>
-            <p> Counter Value - {count} </p>
-            <button onClick={increase}>Increase</button>
-            <button onClick={reset}>Reset</button>
-            <button onClick={decrease}>Decrease</button>
-
+            <div className="container">
+                <h1>counter</h1>
+                <span id="value">{count}</span>
+                <div>
+                    <button id="button1" className="btn decrease" onClick={increase} >INCREASE</button>
+                    <button id="button2" className="btn reset" onClick={reset} >RESET</button>
+                    <button id="button3" className="btn increase" onClick={decrease} >DECREASE</button>
+                </div>
+            </div>
         </div>
     )
 }

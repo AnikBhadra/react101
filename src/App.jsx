@@ -1,11 +1,11 @@
-import Counter from '../Components/Counter'
+import ParentComponent from '../Components/ParentComponent'
 import './App.css'
 
 function App() {
 
   return (
     <div >
-      <Counter />
+      <ParentComponent />
     </div>
   )
 }
