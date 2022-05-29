@@ -35,12 +35,6 @@ span {
   transition: background-color 2s;
 }
 
-#button::after {
-  background-color: #48ff00;
-    color: white;
-    transition: background-color 2s;
-}
-
 #button2:hover {
   background-color: #060606;
   transition: background-color 2s;
