@@ -1,11 +1,11 @@
-import ParentComponent from '../Components/ParentComponent'
+import Greetings from '../Components/Greetings'
 import './App.css'
 
 function App() {
 
   return (
     <div >
-      <ParentComponent />
+      <Greetings />
     </div>
   )
 }
