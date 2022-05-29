@@ -16,11 +16,14 @@ function Counter() {
         setCount(0);
     };
 
+    const greenRed = count < 0 ? "red" : count > 0 ? "green" : ""
+
+
     return (
         <div>
             <div className="container">
                 <h1>counter</h1>
-                <span id="value">{count}</span>
+                <span className={greenRed} id="value">{count}</span>
                 <div>
                     <button id="button1" className="btn decrease" onClick={increase} >INCREASE</button>
                     <button id="button2" className="btn reset" onClick={reset} >RESET</button>

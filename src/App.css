@@ -46,3 +46,10 @@ span {
   color: white;
   transition: background-color 1s;
 }
+.red {
+  color: red;
+}
+
+.green {
+  color: green;
+}
