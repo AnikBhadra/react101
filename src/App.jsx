@@ -1,10 +1,10 @@
-import Todo from "../Components/Todo";
+import ClassCounter from "../Components/ClassCounter";
 import "./App.css";
 
 function App() {
   return (
     <div className="App">
-      <Todo />
+      <ClassCounter />
     </div>
   );
 }
