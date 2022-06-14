@@ -1,11 +1,11 @@
-import FetchingData_useEffect_3 from "../Components/FetchingData_useEffect_3";
+import LifecycleA from "../Components/LifecycleA";
 import "./App.css";
 
 function App() {
   return (
 
     <div className="App">
-      <FetchingData_useEffect_3 />
+      <LifecycleA />
     </div>
   );
 }
