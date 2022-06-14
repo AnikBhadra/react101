@@ -1,10 +1,11 @@
-import FetchingData_useEffect_2 from "../Components/FetchingData_useEffect_2";
+import FetchingData_useEffect_3 from "../Components/FetchingData_useEffect_3";
 import "./App.css";
 
 function App() {
   return (
+
     <div className="App">
-      <FetchingData_useEffect_2 />
+      <FetchingData_useEffect_3 />
     </div>
   );
 }
