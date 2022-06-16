@@ -1,11 +1,12 @@
-import UpdatingLifecycleMethodA from "../Components/UpdatingLifecycleMethodA"
+import ParentComp from "../Components/ParentComp";
+import PureComp from "../Components/PureComp";
 import "./App.css";
 
 function App() {
   return (
 
     <div className="App">
-      <UpdatingLifecycleMethodA />
+      <ParentComp />
     </div>
   );
 }
