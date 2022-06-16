@@ -1,13 +1,12 @@
-import ParentComp from "../Components/ParentComp";
-import ParentCompMemo from "../Components/ParentCompMemo";
-import PureComp from "../Components/PureComp";
+import React, { Component } from "react";
 import "./App.css";
+import RefsDemo from '../Components/RefsDemo'
 
 function App() {
   return (
 
     <div className="App">
-      <ParentCompMemo />
+      <RefsDemo />
     </div>
   );
 }
