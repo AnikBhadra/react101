@@ -1,14 +1,14 @@
 import React, { Component } from "react";
 import "./App.css";
-import ClickCounter from "../Components/ClickCounter";
 import HoverCounter from "../Components/HoverCounter";
+import Click_Counter from "../Components/Click_Counter";
 
 class App extends Component {
   render() {
     return (
 
       <div >
-        <ClickCounter />
+        <Click_Counter />
         <HoverCounter />
       </div>
     )
