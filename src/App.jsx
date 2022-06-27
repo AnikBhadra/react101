@@ -1,16 +1,21 @@
-import React, { Component } from "react";
+import React from "react";
 import "./App.css";
-import PostForm from "../Components/PostFrom";
-class App extends Component {
-  render() {
-    return (
-      <>
-        <PostForm />
-      </>
+import ComponentC from "../Components/ComponentC"
 
-    )
-  }
+export const UserContext = React.createContext()
+export const ChannelContext = React.createContext()
 
+function App() {
+  return (
+    <div>
+      <UserContext.Provider value={'Anik'}>
+        <ChannelContext.Provider value={"Code"}>
+          <ComponentC />
+        </ChannelContext.Provider>
+      </UserContext.Provider>
+
+    </div>
+  )
 }
 
 export default App;
