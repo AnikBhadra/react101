@@ -1,12 +1,12 @@
 import React from "react";
+import CounterThree from "../Components/CounterThree";
 import "./App.css";
-import CounterTwo from "../Components/CounterTwo";
 
 
 function App() {
   return (
     <div>
-      <CounterTwo />
+      <CounterThree />
     </div>
   )
 }
