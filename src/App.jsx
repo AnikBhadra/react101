@@ -1,12 +1,12 @@
 import React from "react";
-import CounterThree from "../Components/CounterThree";
+import DataFetchingOne from "../Components/DataFetchingOne";
 import "./App.css";
 
 
 function App() {
   return (
     <div>
-      <CounterThree />
+      <DataFetchingOne />
     </div>
   )
 }
