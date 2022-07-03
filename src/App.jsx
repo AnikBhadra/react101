@@ -1,12 +1,12 @@
 import React from "react";
-import Counters from "../Components/Counters";
+import FocusInputO from "../Components/FocusInputO";
 import "./App.css";
 
 
 function App() {
   return (
     <div>
-      <Counters />
+      <FocusInputO />
     </div>
   )
 }
